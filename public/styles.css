@@ -33,6 +33,7 @@
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.5);
   color:white;
+  z-index:1;
 }
 
 .nav ul{
@@ -90,6 +91,7 @@
     width:80vw;
     left:5vw;
     font-size: 20px;
+    
   }
 
   .title{
@@ -110,4 +112,7 @@
   background-color: black;
 }
 
+.welcome-heading{
+  z-index:-1;
+}
 
